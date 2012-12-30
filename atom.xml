@@ -4,7 +4,7 @@
   <title><![CDATA[Tiezhen's note]]></title>
   <link href="http://tiezhen.github.com/atom.xml" rel="self"/>
   <link href="http://tiezhen.github.com/"/>
-  <updated>2012-12-30T22:23:01+01:00</updated>
+  <updated>2012-12-30T22:25:22+01:00</updated>
   <id>http://tiezhen.github.com/</id>
   <author>
     <name><![CDATA[Tiezhen WANG]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[jquery]]></title>
+    <title type="html"><![CDATA[JQuery Notes]]></title>
     <link href="http://tiezhen.github.com/blog/2012/12/30/jquery/"/>
     <updated>2012-12-30T21:14:00+01:00</updated>
     <id>http://tiezhen.github.com/blog/2012/12/30/jquery</id>
