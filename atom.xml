@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://tiezhen.github.com/atom.xml" rel="self"/>
   <link href="http://tiezhen.github.com/"/>
-  <updated>2012-12-30T21:09:05+01:00</updated>
+  <updated>2012-12-30T22:12:12+01:00</updated>
   <id>http://tiezhen.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -14,11 +14,140 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Ocotopress - static markdown basic personal blog framework!]]></title>
+    <title type="html"><![CDATA[jquery]]></title>
+    <link href="http://tiezhen.github.com/blog/2012/12/30/jquery/"/>
+    <updated>2012-12-30T21:14:00+01:00</updated>
+    <id>http://tiezhen.github.com/blog/2012/12/30/jquery</id>
+    <content type="html"><![CDATA[<h1>JQuery Autocomplete plugin</h1>
+
+<ul>
+<li>How to edit the content of text box?</li>
+</ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">select</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">,</span> <span class="nx">ui</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="p">...</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="s2">&quot;New Content&quot;</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="p">...</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>How to prevent selected label replacing text box?</li>
+</ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">select</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">,</span> <span class="nx">ui</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="p">...</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">return</span> <span class="kc">false</span><span class="p">;</span> <span class="c1">// or event.preventDefault();</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How I met Octopress]]></title>
     <link href="http://tiezhen.github.com/blog/2012/12/30/octopress/"/>
     <updated>2012-12-30T20:24:00+01:00</updated>
     <id>http://tiezhen.github.com/blog/2012/12/30/octopress</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>This blog mainly contains notes of various technics. It has been also
+used as a spot for me to share my experiences.</p>
+
+<p>Originally, this blog was hosted on blogspot. I&#8217;ve decided to migrate the site
+to octopress based on Github for the following reasons:</p>
+
+<ul>
+<li>It&#8217;s hard to get code syntax highting on blog: There is no native syntax
+highlighting on blgospot. I need to create code snippets and add related js
+code in blogspot. Considering the amount of source code in this blog, the
+management is a nightmare.</li>
+<li>Blogspot is censored in China: Considering the difficulties of my chinese
+reader, it&#8217;s better for me to have a full managed blog service, and be able to
+switch to other solutions in case my original host is censored.</li>
+<li>Octopress has native Markdown support. It is indeed very pleasant to write
+blog in Markdown with my favoriate editor - vim.</li>
+</ul>
+
+
+<p>Well, as always, there are still some disadvantags using Octopress</p>
+
+<ul>
+<li>Most important of all, it&#8217;s getting impossible to udpate the blog over the
+air. Octopress force me to have a ruby environment in order to update my blog.
+Well, in the same time, the nice thing is that I can update my blog at any time even without internet connection as long as I have my client. :-)</li>
+</ul>
+
+
+<p>Some other solutions have also been considered, for example:</p>
+
+<ul>
+<li><a href="http://nanoc.stoneship.org/">nanoc</a>: Nanoc is a quite nice ruby based static web page generator. It&#8217;s very
+simple and dynamic for customization. But for me, it took me sometime to check
+how to find a nice template, how to make a beautiful source code highlighting,
+etc. And it doesn&#8217;t have a native github support neither (althought it&#8217;s not a
+big issue.) As a summary, it&#8217;s nice but need sometime to get everything ready</li>
+<li><a href="http://middlemanapp.com/">middleman</a>: Middleman is also a static site
+generator based on ruby while it&#8217;s more suitable for a CMS site (afaik)
+instead of a blog. The team provided an official extension for blog:
+<a href="http://middlemanapp.com/extensions/blog/">middleman-blog</a> but I didn&#8217;t try it,
+so can&#8217;t make any comments. It would be nice if it has a nice even native
+support for github.</li>
+<li><a href="http://ruhoh.com/">ruhoh</a>: Ruhoh is another online static web blog service. It&#8217;s a bit higher
+level than nanoc and doesn&#8217;t need the whole web pages to be completely
+generated. The idea is to host all markdown pages on github and use rohoh
+service to generate the final stage html codes for you. A nice feature is that
+authors can chose their own developing language and make their own script for
+blog management as long as the basic API is followed. It show another thrend but it&#8217;s not exactly what I am looking for: a service provider indenpendent blog
+service.</li>
+<li><a href="http://calepin.co/">calepin</a>, <a href="http://scriptogr.am/">Scriptogr.am</a>: They provide a similar idea to Octopress, but on dropbox :-) Apparently, I can be more private because dropbox provides some private hosting services. I didn&#8217;t chose that because anyway I will need github to do the version control of my blog and I don&#8217;t store the private thing in my blog.</li>
+</ul>
+
+
+<p>Besides <a href="http://octopress.org/">Octopres</a> and <a href="http://github.com">Github</a> I should thank to the community of the following projects which helped me constructing this blog:</p>
+
+<ul>
+<li><a href="http://zespia.tw/Octopress-Theme-Slash/">Slash</a>: Slash is a beautiful minimal
+theme for octopress. This blog is using a customized tempalte based on Slash.</li>
+</ul>
+
+
+<p>References:</p>
+
+<ul>
+<li>Yifeng RUAN&#8217;s blog: <a href="http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html">How to build an ultimate blog with github + jekyll (in
+chinese)</a></li>
+<li>dBlock.org: <a href="http://code.dblock.org/octopress-setting-up-a-blog-and-contributing-to-an-existing-one">Octopress: Setting up a Blog and Contributing to an Existing
+One</a>
+This blog introduced a useful tip to manage source code and generate static blog
+in the same github repository: push the source code to antoher branch
+source by using &#8220;git push origin source&#8221;</li>
+</ul>
+
 ]]></content>
   </entry>
   
