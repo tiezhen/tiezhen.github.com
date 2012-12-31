@@ -4,7 +4,7 @@
   <title><![CDATA[Tiezhen's note]]></title>
   <link href="http://tiezhen.github.com/atom.xml" rel="self"/>
   <link href="http://tiezhen.github.com/"/>
-  <updated>2012-12-30T22:25:22+01:00</updated>
+  <updated>2012-12-31T13:57:02+01:00</updated>
   <id>http://tiezhen.github.com/</id>
   <author>
     <name><![CDATA[Tiezhen WANG]]></name>
@@ -133,6 +133,13 @@ service.</li>
 <ul>
 <li><a href="http://zespia.tw/Octopress-Theme-Slash/">Slash</a>: Slash is a beautiful minimal
 theme for octopress. This blog is using a customized tempalte based on Slash.</li>
+</ul>
+
+
+<p>Some useful CLI commands:</p>
+
+<ul>
+<li>Add a new article: rake new_post[&#8220;title&#8221;]</li>
 </ul>
 
 
