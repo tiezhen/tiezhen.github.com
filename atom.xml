@@ -4,7 +4,7 @@
   <title><![CDATA[Tiezhen's note]]></title>
   <link href="http://tiezhen.github.com/atom.xml" rel="self"/>
   <link href="http://tiezhen.github.com/"/>
-  <updated>2012-12-31T13:57:02+01:00</updated>
+  <updated>2013-01-04T15:01:09+01:00</updated>
   <id>http://tiezhen.github.com/</id>
   <author>
     <name><![CDATA[Tiezhen WANG]]></name>
@@ -82,10 +82,7 @@ used as a spot for me to share my experiences.</p>
 to octopress based on Github for the following reasons:</p>
 
 <ul>
-<li>It&#8217;s hard to get code syntax highting on blog: There is no native syntax
-highlighting on blgospot. I need to create code snippets and add related js
-code in blogspot. Considering the amount of source code in this blog, the
-management is a nightmare.</li>
+<li>There is no native syntax highlighting on blgospot. I need to create code snippets and add related js code in blogspot. Considering the amount of source code in this blog, the management is a nightmare.</li>
 <li>Blogspot is censored in China: Considering the difficulties of my chinese
 reader, it&#8217;s better for me to have a full managed blog service, and be able to
 switch to other solutions in case my original host is censored.</li>
