@@ -4,7 +4,7 @@
   <title><![CDATA[Tiezhen's note]]></title>
   <link href="http://tiezhen.github.com/atom.xml" rel="self"/>
   <link href="http://tiezhen.github.com/"/>
-  <updated>2013-01-04T15:01:09+01:00</updated>
+  <updated>2013-01-04T15:06:25+01:00</updated>
   <id>http://tiezhen.github.com/</id>
   <author>
     <name><![CDATA[Tiezhen WANG]]></name>
@@ -145,6 +145,7 @@ theme for octopress. This blog is using a customized tempalte based on Slash.</l
 <ul>
 <li>Yifeng RUAN&#8217;s blog: <a href="http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html">How to build an ultimate blog with github + jekyll (in
 chinese)</a></li>
+<li>Chinese <a href="http://blog.dayanjia.com/2012/04/migration-to-octopress-from-wordpress/">Migration to octopress from wordpress</a></li>
 <li>dBlock.org: <a href="http://code.dblock.org/octopress-setting-up-a-blog-and-contributing-to-an-existing-one">Octopress: Setting up a Blog and Contributing to an Existing
 One</a>
 This blog introduced a useful tip to manage source code and generate static blog
